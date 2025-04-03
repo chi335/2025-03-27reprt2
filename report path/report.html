@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>주식 변동</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        .stock-info {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .stock-info h2 {
+            margin-top: 0;
+        }
+        .stock-info p {
+            font-size: 18px;
+        }
+        .up {
+            color: green;
+        }
+        .down {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>오늘의 주식 변동</h1>
+    </header>
+    
+    <div class="stock-info">
+        <h2>KOSPI</h2>
+        <p>현재 지수: <span class="down">15.53</span></p>
+        <p>변동률: <span class="down">-0.62%</span></p>
+    </div>
+    
+    <div class="stock-info">
+        <h2>KOSDAQ</h2>
+        <p>현재 지수: <span class="down">6.60</span></p>
+        <p>변동률: <span class="down">-0.95%</span></p>
+    </div>
+</body>
+</html>
